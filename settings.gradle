@@ -1,1 +1,1 @@
-include "libGDX"
+include "libGDX", "libgdx-drop-example"

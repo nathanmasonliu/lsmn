@@ -1,0 +1,13 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+allprojects {
+    apply plugin: "eclipse"
+}
+
+tasks.eclipse.doLast {
+    delete ".project"
+}
